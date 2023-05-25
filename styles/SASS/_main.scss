@@ -1,0 +1,86 @@
+@use 'var';
+@use 'mixins';
+
+/* tried import instead of @use /*
+
+/*styling for index main starts here*/
+
+    
+.container__intro {
+    max-width:635px;
+    width:100%;
+    max-height:191px;
+    height:100%;
+    font-family: var.$header-font;
+    font-size: 40px;
+    line-height: 60px;
+    line-height: 120%;
+    color: var.$black;
+    margin-top:2rem;
+}
+.small__intro{
+    font-family: $header-font;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27.61px;
+    letter-spacing: -0.42px;
+    color: var.$blue;
+    
+    
+}
+
+.grid__image__container{
+    max-width:1110px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    margin-top:5rem;
+ 
+}
+
+
+/*.grid__container {
+    width:100%;
+    max-height:1960px;
+    height:100%;
+    display: grid;
+    grid-template-columns: repeat(9 , 1fr);
+    grid-template-rows: repeat(32 , 1fr);
+    
+}*/
+
+.service_list{
+    &__container {
+    max-width:1079px;
+    width:100%;
+    max-height:106px;
+    display:flex;
+    }
+
+    &__text{
+    font-family:  var.$header-font;
+    font-size: 28px;
+    line-height: 38px;
+    line-height: 108%;
+    fill: solid;
+    color: var.$black;
+    max-width: 635px;
+    width: 100%;
+    margin-top: 10rem;
+    }
+}
+.service__list1, .service__list2 {
+   /* @include list_style; */
+
+    font-family: var.$list-font;
+    color: pink;
+    opacity:60%; 
+    list-style-type: none;
+
+}
+.list{
+    font-family: var.$list-font;
+    color: var.$black;
+    opacity:60%; 
+    list-style-type: none;
+}

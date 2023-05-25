@@ -1,0 +1,88 @@
+/*Unable to use SASS because of problems with Prepros, compiling issues etc, so this project is made of pure CSS*/
+
+body {
+    max-width:1110px;
+    width: 100%;
+    margin: auto;
+    font-family: "Mulish", sans-serif;
+}
+.projects_header {
+    width: 475px;
+    font-size: 40px;
+    font-weight: 700;
+    text-shadow: 0px 4px 4px  rgba(0, 0, 0, 0.25);
+    line-height:55px;
+    line-height: 110%;
+    
+}
+.section_projects1 {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+        
+}
+
+.p_text_projects {
+    max-width: 635px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    opacity: 80%;
+}
+
+.grid_container2{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 6fr;
+    padding: 40px;
+    line-height: 50px;
+}
+
+.grid_item1, .grid_item3, .grid_item5, .grid_item7, .grid_item9, .grid_item11 {
+    font-size:18px;
+    font-weight:700;
+    opacity: 50%;
+    border-bottom:solid;
+    border-width: thin;
+}
+ .grid_item2, .grid_item4, .grid_item6, .grid_item8, .grid_item10, .grid_item12 {
+    font-size:18px;
+    font-style:bold;
+    font-weight: 700px;
+    border-bottom:solid;
+    border-width: thin;
+    border-bottom-color:#979797
+
+ }
+
+.border_bottom2 {
+    border-bottom:#979797 solid;
+    border-width: thin;
+    max-width: 335px;
+    width: 100%;
+    
+}
+
+.woman_img {
+    margin-top: 3rem;
+}
+
+.under_img_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    opacity: 80%
+
+}
+
+.img_container {
+    display:flex;
+    justify-content: space-between;
+    margin-top:40px;
+}
+.footer {
+    display:flex;
+    justify-content: space-between;
+    margin-top:40px;
+  }

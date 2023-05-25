@@ -1,0 +1,18 @@
+/*header&nav styles*/
+@mixin list_style {
+    font-family: var.$list-font;
+    color: var.$black;
+    opacity: 60%;
+}
+
+$header-font: 'Mulish', sans-serif;
+$header-size: 18px;
+
+/*main styles here*/
+$list-font: 'Mulish', sans-serif;
+$list-size: 18px;
+
+
+$blue: #4A4FF2;
+$black: #111111;
+

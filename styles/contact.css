@@ -1,0 +1,73 @@
+/*Unable to use SASS because of problems with Prepros, compiling issues etc, so this project is made of pure CSS*/
+
+body {
+    max-width:1110px;
+    width: 100%;
+    margin: auto;
+    font-family: "Mulish", sans-serif;
+}
+
+.contact_container{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-top:50px;
+    
+}
+.contact_header{
+    max-width: 475px;
+    line-height: 55px;
+    font-size: 40px;
+}
+
+.contact_undertext {
+    font-size:16px;
+    opacity: 80%;
+    max-width: 445px;
+
+}
+.form_container {
+    width: 475px; 
+}
+
+.form{
+    display:flex;
+    flex-direction:column;
+    font-size:16px;
+    opacity:60%; 
+    line-height: 40px;
+    
+}
+
+.input-field {
+    border:0px;
+    border-bottom: 2px solid;
+    opacity: 60%;
+    border-width: thin;
+}
+
+button{
+    background-color:#4A4FF2;
+    color:white;
+    width: 125px;
+    height:50px;
+    border:none;
+    font-size:16px;
+    margin-top:20px;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: pink;
+}
+
+.map{
+    margin-top: 50px;
+}
+
+.footer {
+    display:flex;
+    justify-content: space-between;
+    margin-top:40px;
+  }

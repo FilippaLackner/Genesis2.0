@@ -1,0 +1,40 @@
+.navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+    justify-content: space-between;
+    color: black;
+    margin-top:30px;
+  }
+  .navbar__logo {
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .navbar__menu {
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    line-height: 100%;
+    letter-spacing: -0.35px;
+    color: #111111;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    cursor: pointer;
+  }
+  .navbar__menu__list {
+    padding: 20px;
+    list-style-type: none;
+    font-weight: bold;
+  }
+  .navbar__menu__list a {
+    color: #111111;
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+
+
